@@ -1,9 +1,9 @@
 let a = 0
 let b = 0
-let h = 0 
+let h = 0
 let total = 0
 
-document.getElementById('button').addEventListener('click',addition)
+document.getElementById('button').addEventListener('click', addition)
 
 function addition () {
   a = document.getElementById('a').value
@@ -18,7 +18,7 @@ function addition () {
 
   h = parseInt(h)
 
-  total=((a + b) / 2) * h
+  total = ((a + b) / 2) * h
 
   alert(total)
 }
